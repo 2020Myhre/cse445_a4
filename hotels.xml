@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="hotels.xsd">
+
+	<Hotel Rating="4.6" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>The Eagle Harbor Inn a Boutique Hotel</Name>
+		<Phone>206-555-0101</Phone>
+		<Address>
+			<Number>100</Number>
+			<Street>Harbor Ave</Street>
+			<City>Bainbridge Island</City>
+			<State>WA</State>
+			<Zip>98110</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.6" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>The Inn at Pleasant Beach</Name>
+		<Phone>206-555-0102</Phone>
+		<Phone>206-555-0199</Phone>
+		<Address>
+			<Number>200</Number>
+			<Street>Pleasant Beach Dr</Street>
+			<City>Bainbridge Island</City>
+			<State>WA</State>
+			<Zip>98110</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>The Marshall Suites</Name>
+		<Phone>206-555-0103</Phone>
+		<Address>
+			<Number>300</Number>
+			<Street>High School Rd NE</Street>
+			<City>Bainbridge Island</City>
+			<State>WA</State>
+			<Zip>98110</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.7" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>Hotel Scandi</Name>
+		<Phone>206-555-0104</Phone>
+		<Address>
+			<Number>400</Number>
+			<Street>Winslow Way E</Street>
+			<City>Bainbridge Island</City>
+			<State>WA</State>
+			<Zip>98110</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.0" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>Bainbridge Island Country Inn</Name>
+		<Phone>206-555-0105</Phone>
+		<Address>
+			<Number>500</Number>
+			<Street>Country Club Rd</Street>
+			<City>Bainbridge Island</City>
+			<State>WA</State>
+			<Zip>98110</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.8" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>Four Seasons Hotel Seattle</Name>
+		<Phone>206-749-7000</Phone>
+		<Address>
+			<Number>99</Number>
+			<Street>Union St</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98101</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.9" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>Willows Lodge</Name>
+		<Phone>425-424-3900</Phone>
+		<Address>
+			<Number>14580</Number>
+			<Street>NE 145th St</Street>
+			<City>Woodinville</City>
+			<State>WA</State>
+			<Zip>98072</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.4" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>Homewood Suites by Hilton Seattle Downtown</Name>
+		<Phone>206-281-9393</Phone>
+		<Address>
+			<Number>206</Number>
+			<Street>Western Ave W</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98119</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>Hyatt House Seattle/Downtown</Name>
+		<Phone>206-727-1234</Phone>
+		<Address>
+			<Number>201</Number>
+			<Street>5th Ave N</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98109</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.7" NearestAirport="Seattle-Tacoma International (SEA)">
+		<Name>The Lodge at St Edward Park</Name>
+		<Phone>425-470-6500</Phone>
+		<Address>
+			<Number>14477</Number>
+			<Street>Juanita Dr NE</Street>
+			<City>Kenmore</City>
+			<State>WA</State>
+			<Zip>98028</Zip>
+		</Address>
+	</Hotel>
+
+</Hotels>

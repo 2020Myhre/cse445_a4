@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!-- Simple validations -->
+  <!-- === Simple types (validation helpers) === -->
   <xs:simpleType name="PhoneType">
     <xs:restriction base="xs:string">
       <xs:pattern value="\d{3}-\d{3}-\d{4}"/>
@@ -18,6 +18,7 @@
     <xs:restriction base="xs:decimal">
       <xs:minInclusive value="0.0"/>
       <xs:maxInclusive value="5.0"/>
+      <!-- up to one decimal place (e.g., 4.2) -->
       <xs:fractionDigits value="1"/>
     </xs:restriction>
   </xs:simpleType>
@@ -28,9 +29,11 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- Address in left-to-right order -->
+  <!-- === Complex types === -->
   <xs:complexType name="AddressType">
+    <!-- Left-to-right order: Number, Street, City, State, Zip -->
     <xs:sequence>
+      
       <xs:element name="Number" type="xs:string"/>
       <xs:element name="Street" type="xs:string"/>
       <xs:element name="City" type="xs:string"/>
@@ -39,18 +42,19 @@
     </xs:sequence>
   </xs:complexType>
 
-  <!-- Hotel with optional Rating and required NearestAirport -->
   <xs:complexType name="HotelType">
+    <!-- Enforce element order: Name, Phone(s), Address -->
     <xs:sequence>
       <xs:element name="Name" type="xs:string"/>
       <xs:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
       <xs:element name="Address" type="AddressType"/>
     </xs:sequence>
+    <!-- Attributes: Rating optional; NearestAirport required -->
     <xs:attribute name="Rating" type="RatingType" use="optional"/>
     <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
   </xs:complexType>
 
-  <!-- Root element -->
+  <!-- === Root element === -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
@@ -58,4 +62,5 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
 </xs:schema>

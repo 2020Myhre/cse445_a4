@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="hotels.xsd">
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
 	<Hotel Rating="4.6" NearestAirport="Seattle-Tacoma International (SEA)">
 		<Name>The Eagle Harbor Inn a Boutique Hotel</Name>
@@ -14,7 +14,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.6" NearestAirport="Seattle-Tacoma International (SEA)">
+	<Hotel NearestAirport="Seattle-Tacoma International (SEA)">
 		<Name>The Inn at Pleasant Beach</Name>
 		<Phone>206-555-0102</Phone>
 		<Phone>206-555-0199</Phone>
@@ -124,3 +124,4 @@
 	</Hotel>
 
 </Hotels>
+

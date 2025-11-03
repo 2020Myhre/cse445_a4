@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- HotelsErrors.xml -->
-<!-- 1:-->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
-  <!-- ( from Hotels.xml) -->
-  <Hotel Rating="4.6" NearestAirport="Seattle-Tacoma International (SEA)">
+<!-- Update to proper Schema -->
+  <Hotel Rating="4.6">
     <Name>The Eagle Harbor Inn a Boutique Hotel</Name>
     <Phone>206-555-0101</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>100</Number>
       <Street>Harbor Ave</Street>
       <City>Bainbridge Island</City>
@@ -17,8 +14,7 @@
     </Address>
   </Hotel>
 
-  <!-- 2: NearestAirport -->
-  <Hotel Rating="4.6">
+  <Hotel>
     <Name>The Inn at Pleasant Beach</Name>
     <Phone>206-555-0102</Phone>
     <Phone>206-555-0199</Phone>
@@ -31,11 +27,9 @@
     </Address>
   </Hotel>
 
-  <!-- 3: Phone element-->
-  <Hotel Rating="4.1" NearestAirport="Seattle-Tacoma International (SEA)">
+  <Hotel Rating="4.1">
     <Name>The Marshall Suites</Name>
-    <!-- Phone intentionally omitted -->
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>300</Number>
       <Street>High School Rd NE</Street>
       <City>Bainbridge Island</City>
@@ -44,11 +38,10 @@
     </Address>
   </Hotel>
 
-  <!-- (unchanged) -->
-  <Hotel Rating="4.7" NearestAirport="Seattle-Tacoma International (SEA)">
+  <Hotel Rating="4.7">
     <Name>Hotel Scandi</Name>
     <Phone>206-555-0104</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>400</Number>
       <Street>Winslow Way E</Street>
       <City>Bainbridge Island</City>
@@ -57,12 +50,11 @@
     </Address>
   </Hotel>
 
-  <!-- 4: Duplicate -->
-  <Hotel Rating="4.0" NearestAirport="Seattle-Tacoma International (SEA)">
+  <Hotel Rating="4.0">
     <Name>Bainbridge Island Country Inn</Name>
     <Name>Bainbridge Island Country Inn (Duplicate)</Name>
     <Phone>206-555-0105</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>500</Number>
       <Street>Country Club Rd</Street>
       <City>Bainbridge Island</City>
@@ -71,11 +63,10 @@
     </Address>
   </Hotel>
 
-  <!-- (unchanged) -->
-  <Hotel Rating="4.8" NearestAirport="Seattle-Tacoma International (SEA)">
+  <Hotel Rating="4.8">
     <Name>Four Seasons Hotel Seattle</Name>
     <Phone>206-749-7000</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>99</Number>
       <Street>Union St</Street>
       <City>Seattle</City>
@@ -84,11 +75,10 @@
     </Address>
   </Hotel>
 
-  <!-- (unchanged) -->
-  <Hotel Rating="4.9" NearestAirport="Seattle-Tacoma International (SEA)">
+  <Hotel Rating="4.9">
     <Name>Willows Lodge</Name>
     <Phone>425-424-3900</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>14580</Number>
       <Street>NE 145th St</Street>
       <City>Woodinville</City>
@@ -97,11 +87,10 @@
     </Address>
   </Hotel>
 
-  <!-- (unchanged) -->
-  <Hotel Rating="4.4" NearestAirport="Seattle-Tacoma International (SEA)">
+  <Hotel Rating="4.4">
     <Name>Homewood Suites by Hilton Seattle Downtown</Name>
     <Phone>206-281-9393</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>206</Number>
       <Street>Western Ave W</Street>
       <City>Seattle</City>
@@ -110,11 +99,10 @@
     </Address>
   </Hotel>
 
-  <!-- (unchanged) -->
-  <Hotel Rating="4.5" NearestAirport="Seattle-Tacoma International (SEA)">
+  <Hotel Rating="4.5">
     <Name>Hyatt House Seattle/Downtown</Name>
     <Phone>206-727-1234</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>201</Number>
       <Street>5th Ave N</Street>
       <City>Seattle</City>
@@ -123,25 +111,22 @@
     </Address>
   </Hotel>
 
-  <!-- 5: Address missing closing -->
-  <Hotel Rating="4.7" NearestAirport="Seattle-Tacoma International (SEA)">
+  <Hotel Rating="4.7">
     <Name>The Lodge at St Edward Park</Name>
     <Phone>425-470-6500</Phone>
-    <Address>
+    <Address NearestAirport="Seattle-Tacoma International (SEA)">
       <Number>14477</Number>
       <Street>Juanita Dr NE</Street>
       <City>Kenmore</City>
       <State>WA</State>
       <Zip>98028</Zip>
-      <!-- Missing </Address> on purpose -->
   </Hotel>
 
-  <!-- (unchanged) -->
-  <Hotel Rating="4.2" NearestAirport="Sky Harbor">
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
